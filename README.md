@@ -1,71 +1,78 @@
-🧠 Projeto de Estudos em SQL & BigQuery – Portfólio de Análises
+# 🧠 Portfólio SQL & BigQuery – Análises Comerciais com TheLook eCommerce
 
-Este repositório reúne meus estudos e práticas em SQL, modelagem de dados e análises realizadas no BigQuery, usando datasets públicos.
-O objetivo é evoluir de consultas básicas até análises mais avançadas, incluindo:
+Este repositório reúne consultas SQL, análises estruturadas e processos de preparação de dados realizados no **Google BigQuery**, utilizando o dataset público **TheLook eCommerce** (`bigquery-public-data.thelook_ecommerce`).  
+O objetivo é documentar, de forma clara e profissional, minha evolução técnica em **SQL, ETL, análise comercial e inteligência de negócio**.
 
-Exploração de dados
+---
 
-Criação de queries intermediárias e avançadas
+## 📁 Estrutura do Repositório
 
-Joins, agregações, Common Table Expressions (CTEs)
+/sql_basico/ -> consultas iniciais e exploração das tabelas
+/sql_intermediario/ -> joins, agregações, CTEs e análise descritiva
+/sql_avancado/ -> análises robustas, janelas, cohort, LTV etc.
+/etl_transformacoes/ -> processos de ETL, limpeza e modelagem
+/casos_de_negocio/ -> estudos aplicados à lógica comercial
 
-Modelagem e transformação (ETL básico)
 
-Preparação de dados para dashboards e visualizações
+Cada pasta contém:
+- arquivos `.sql` (consultas)
+- arquivos `.md` com explicações, lógica, resultados e insights
 
-Estudos de caso com foco nas habilidades esperadas pelo mercado
+---
 
-Ao longo das pastas, registrei todas as queries, contexto, aprendizados e raciocínio de negócio — estruturando um portfólio que demonstra meu progresso técnico em dados.
+## 📊 Dataset Utilizado  
+### **TheLook eCommerce — BigQuery Public Dataset**
+`bigquery-public-data.thelook_ecommerce`
 
-📁 Estrutura do Repositório
-/sql_basico/
-    - select_basico.sql
-    - select_basico.md
+Dataset realista e completo que simula um e-commerce de varejo, incluindo:
 
-/sql_intermediario/
-    - joins_e_agrupamentos.sql
-    - joins_e_agrupamentos.md
+- 👥 **Clientes**
+- 🛒 **Pedidos e itens de pedido**
+- 📦 **Produtos**
+- 💳 **Pagamentos**
+- 🚚 **Envios**
+- 📈 **Datas de compra**, valores, margens e categorias
 
-/sql_avancado/
-    - ctes_subqueries.sql
-    - ctes_subqueries.md
+É um dos datasets mais usados no mundo para estudos de BI, análises comerciais e portfólios.
 
-/etl_transformacoes/
-    - limpeza_e_padronizacao.sql
-    - limpeza_e_padronizacao.md
+---
 
-/casos_de_negocio/
-    - analise_ecommerce_vendas.sql
-    - analise_ecommerce_vendas.md
+## 🎯 Objetivos do Projeto
 
-🚀 Datasets Utilizados
+- Construir uma base sólida de conhecimento em **SQL aplicado ao negócio**  
+- Documentar consultas reais utilizadas em contextos de varejo/e-commerce  
+- Demonstrar capacidade de:  
+  - estruturar e otimizar queries  
+  - criar pipelines/transformações (ETL)  
+  - preparar dados para dashboards  
+  - gerar insights comerciais claros  
+- Reforçar habilidades relevantes para áreas como:  
+  - Planejamento Comercial  
+  - BI / Analytics  
+  - Inteligência de Mercado  
+  - Estratégia e Performance Comercial  
 
-London E-commerce (BigQuery Public Dataset)
+---
 
-Futuramente: outros datasets públicos do BigQuery ou arquivos próprios.
+## 👤 Sobre mim
 
-🎯 Objetivo
+Profissional da área comercial, com forte especialização em **dados, planejamento e inteligência de mercado**.  
+Experiência prática em análise de KPIs, comportamento de clientes, performance de vendas, construção de indicadores e SQL.  
+Trabalho para transformar dados em decisões, sempre com foco estratégico e visão de negócio.
 
-Criar um histórico real de evolução técnica em dados, estruturado e apresentável para processos seletivos, incluindo:
+---
 
-SQL sólido
+## 📌 Status do Repositório
 
-Capacidade analítica
+- ✔ Estrutura inicial criada  
+- ⬜ Pastas organizadas  
+- ⬜ Query de exploração inicial  
+- ⬜ Documentação das consultas  
+- ⬜ Estudos de caso adicionados  
 
-Raciocínio de negócio
+---
 
-Preparação de dados para BI
+## 🚀 Avanço Contínuo
 
-Documentação técnica clara
+O repositório será atualizado conforme novas consultas, insights e estudos forem produzidos — com foco em evolução constante e portfólio técnico sólido.
 
-📌 Status do Projeto
-
-✔ Repositório iniciado
-⬜ Criando consultas introdutórias
-⬜ Análises intermediárias
-⬜ ETL básico
-⬜ Casos de negócio completos
-
-✨ Sobre mim
-
-Profissional da área comercial com transição estruturada para dados, unindo visão analítica, experiência real com KPIs, BI e SQL — com foco em planejamento comercial e inteligência de mercado.
