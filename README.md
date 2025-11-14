@@ -1,6 +1,6 @@
-# 🧠 Portfólio SQL & BigQuery – Análises Comerciais com TheLook eCommerce
+# 🧠 Portfólio SQL & BigQuery – Análises Comerciais
 
-Este repositório reúne consultas SQL, análises estruturadas e processos de preparação de dados realizados no **Google BigQuery**, utilizando o dataset público **TheLook eCommerce** (`bigquery-public-data.thelook_ecommerce`).  
+Este repositório reúne consultas SQL, análises estruturadas e processos de preparação de dados realizados no **Google BigQuery**, utilizando o dataset **TheLook eCommerce** (`bigquery-public-data.thelook_ecommerce`).  
 O objetivo é documentar, de forma clara e profissional, minha evolução técnica em **SQL, ETL, análise comercial e inteligência de negócio**.
 
 ---
